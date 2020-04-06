@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Inn</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Literata:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand px-4 mt-2 bold brown" href="index.html">
+      <img class="pr-1 mb-1" src="Union 1.svg">
+      Light <span class="italic orange">inn</span></a>
+    <button class="navbar-toggler orange" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon orange"></span>
+    </button>
+    <div class="collapse navbar-collapse orange" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto orange">
+        <li class="nav-item">
+          <a class="nav-link px-4" href="Store.html">Store<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="Projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="AboutUs.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="#">Galery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="#contactUs">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4 orange" href="Cart.html">Cart</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid " id="header">
+    <h1 class="pl-4 pt-4 ">
+      Dream big.<br>
+      Scribble often.<br>
+      Make thoughtfully.
+    </h1>
+  </div>
+  <div class="container mt-4 mb-5 ">
+    <div>
+      <div class="titl e-line"></div>
+      <h2 class="orange italic">
+        Latest products
+      </h2>
+    </div>
+    <div class="row d-none d-sm-block pb-4 overflow-auto">
+      <div class=" d-inline-flex m">
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2019/10/Graypants_Scraplights_Alki_Pendant_Natural-768x768.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Alki Pendant Natural</h3>
+              <p class="price">€290.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2018/04/Graypants_Scraplights_Ohio32_Pendant_Natural-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Ohio32 Pendant Natural</h3>
+              <p class="price">€1,200.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2019/10/Graypants_Scraplights_Denny_Pendant_White-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Denny Pendant White</h3>
+              <p class="price">€625.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2018/04/Graypants_Scraplights_Hive15_Pendant_White-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Hive15 Pendant White</h3>
+              <p class="price">€290.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2019/10/Graypants_Roest_Ceiling20_Natural-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Ceiling20</h3>
+              <p class="price">€225.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" data-interval="false" class="carousel slide d-sm-none" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Nuotraukos/DSCF1131.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-no ne d-md-block">
+            <h5 class="bold shadow brown">Hive12 Pendant Natural</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../Nuotraukos/_MG_8985.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-no ne d-md-block">
+            <h5 class="bold shadow brown">Disc20 Pendant Natural</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../Nuotraukos/DSCF6454.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-n one d-md-block">
+            <h5 class="brown shadow bold">Moon18 Pendant Natural</h5>
+
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="title-li ne"></div>
+    <h2 class="col-12 pl-0 py-3 orange italic">
+      Most popular
+    </h2>
+    <div class="row d-none d-sm-block pb-4 overflow-auto">
+      <div class=" d-inline-flex m">
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2019/10/Graypants_Scraplights_Alki_Pendant_Natural-768x768.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Alki Pendant Natural</h3>
+              <p class="price">€290.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2018/04/Graypants_Scraplights_Ohio32_Pendant_Natural-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Ohio32 Pendant Natural</h3>
+              <p class="price">€1,200.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2019/10/Graypants_Scraplights_Denny_Pendant_White-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Denny Pendant White</h3>
+              <p class="price">€625.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2018/04/Graypants_Scraplights_Hive15_Pendant_White-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Hive15 Pendant White</h3>
+              <p class="price">€290.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="product-card shadow">
+            <img class="img-fluid"
+              src="https://www.graypants.com/app/uploads/2019/10/Graypants_Roest_Ceiling20_Natural-300x300.jpg">
+            <div class="product-description">
+              <h3 class="product-name">Ceiling20</h3>
+              <p class="price">€225.00</p>
+              <a data-target="#alkipn" data-toggle="modal" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="carouselExampleCaption" data-interval="false" class="carousel slide d-sm-none" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaption" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaption" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaption" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.graypants.com/app/uploads/2018/04/Graypants_Scraplights_Arcturus_Pendant_White-300x300.jpg"
+            width="100%" class="d-block " alt="...">
+          <div class="carousel-caption d-no ne d-md-block">
+            <h5 class="brown bold shadow">Arcturus Pendant White</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.graypants.com/app/uploads/2018/04/Graypants_Scraplights_Dome36_Pendant_Natural-300x300.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-n one d-md-block">
+            <h5 class="brown bold shadow">Dome36 Pendant Natural</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.graypants.com/app/uploads/2018/04/Graypants_Scraplights_Moon18_Pendant_Natural-300x300.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-no ne d-md-block">
+            <h5 class="brown bold shadow">Moon18 Pendant Natural</h5>
+
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaption" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaption" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="container my-5">
+    <h2 class="col-12 pl-0 pt-4 pb-3 orange  italic">Latest Projects</h2>
+    <div class="row ">
+      <div class="col-sm-6 p-3">
+        <h3 class="py-4 bold ">Private Residence</h3>
+        <img class="img-fluid d-block d-sm-none"
+          src="https://www.graypants.com/app/uploads/2020/01/Graypants-Custom-Projects-Private-Residence-1-1278x1536.jpg">
+        <p class="py-4 ">This custom installation for a family residence in the greater Seattle area uses a unique
+          "blonde" variation of the Scraplights Moon series. The variation features white cardboard with a burned edge
+          to create a warm white finish.
+        </p>
+        <a type="button" href="Projects.html" class="btn btn-color  col-6">See more</a>
+      </div>
+      <div class="col-sm-6">
+        <img class="img-fluid d-none d-sm-block"
+          src="https://www.graypants.com/app/uploads/2020/01/Graypants-Custom-Projects-Private-Residence-1-1278x1536.jpg">
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-sm-6 d-none d-sm-block">
+          <img class="img-fluid"
+            src="https://www.graypants.com/app/uploads/2020/01/Graypants-Custom-Projects-True-Food-Kitchen-1-1536x1024.jpg">
+        </div>
+        <div class="col-sm-6">
+          <h3 class="py-3 pt-5 bold">True Food Kitchen</h3>
+          <img class="img-fluid d-sm-none"
+            src="https://www.graypants.com/app/uploads/2020/01/Graypants-Custom-Projects-True-Food-Kitchen-1-1536x1024.jpg">
+          <p class="py-4">True Food Kitchen is a healthy, chef driven, seasonal food restaurant. Graypants’ largest ever
+            drum Scraplights continue to be custom crafted for TFK and can be seen in over a dozen of their locations.
+          </p>
+          <a type="button" href="Projects.html" class="btn  btn-color col-6">See more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container my-5 py-5 px-0">
+    <div class="container ml-2">
+      <h2 class="orange  italic">About us</h2>
+    </div>
+    <div class="row mt-5 px-0">
+      <div class="col-md-6">
+        <h3 class="p-4">Dream Big.<br>Scribble often.<br>Make thoughtfully.</h3>
+        <p class="p-4">
+          Light inn is a team of problem solvers. Anchored in Seattle and Amsterdam, Light inn’s bold creativity leads
+          to diverse designs in products, architecture, and other beautiful objects around the world. Their work expands
+          globally with collaborations and custom designs for leading companies worldwide.
+        </p>
+        <div class="embed-responsive embed-responsive-16by9 d-block d-md-none">
+          <iframe class="embed-responsive-item " title="vimeo-player" src="https://player.vimeo.com/video/105274396"
+            width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="p-4 py-2">
+          <a type="button" href="AboutUs.html" class="btn btn-color my-2 col-6">More About</a>
+        </div>
+      </div>
+      <div class="col-md-6 embed-responsive embed-responsive-16by9 d-none d-md-block">
+        <iframe class="embed-responsive-item" title="vimeo-player" src="https://player.vimeo.com/video/105274396"
+          width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="d-block d-lg-flex align-items-end">
+    <div class="w-100">
+      <div id="carouselExampleControls" data-interval="false" class="carousel slide " data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.graypants.com/app/uploads/2020/01/Graypants-Product-Loci-custom-installation-05.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.graypants.com/app/uploads/2020/01/Graypants-Custom-Projects-Maslows-by-fare-start-4.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.graypants.com/app/uploads/2020/01/Graypants-Custom-Projects-ATLAS-Workbase-3-1536x1024.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="w-100 align-self-center">
+      <div class="container pb-5 pb-lg-2 contact-form">
+        <h2 id="contactUs" class="brown bold mt-2 pb-5 ">Contact us</h2>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="bold ">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="bold ">Contact with us by writing a message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-color col-6">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="alkipn" tabindex="-1" role="dialog" aria-labelledby="alkipendant" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content border-0">
+        <div class="modal-header border-0">
+          <h3 class="modal-title" id="">Alki Pendant Natural</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body ">
+          <div class="row">
+            <div class="col-lg-6 d-none d-lg-block">
+              <div id="alkipnss" class="carousel slide" data-interval="false" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://www.graypants.com/app/uploads/2019/10/Graypants_Scraplights_Alki_Pendant_Natural-768x768.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://www.graypants.com/app/uploads/2020/01/Graypants-Product-Pebbles-series-06-768x512.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://www.graypants.com/app/uploads/2020/01/Graypants-Product-Pebbles-series-06-768x512.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#alkipnss" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#alkipnss" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="p-3">
+                    <p class="small">Size (NA): Ø 13, H 8 (in)</p>
+                    <p class="small">Size (EU): Ø 32, H 19 (cm)</p>
+                    <p class="small">Cord (NA): Black, 6.5ft (16ft available)</p>
+                    <p class="small">Cord (EU): Black fabric, 2m (5m available)</p>
+                    <p class="small">Canopy (NA): Black powder coated, Ø 5, H 1 (in)</p>
+                    <p class="small">Canopy (EU): Black powder coated, Ø 10, H 2.5 (cm)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div id="alkipns" class="carousel slide d-lg-none" data-interval="false" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://www.graypants.com/app/uploads/2019/10/Graypants_Scraplights_Alki_Pendant_Natural-768x768.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://www.graypants.com/app/uploads/2020/01/Graypants-Product-Pebbles-series-06-768x512.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://www.graypants.com/app/uploads/2020/01/Graypants-Product-Pebbles-series-06-768x512.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#alkipns" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#alkipns" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p class="p-3">
+                Scraplights are constructed from natural recycled cardboard precision cut by a
+                laser. This gives the edges their classic dark appearance and enhances the warm
+                light projected through the corrugation. The classic series includes many of the
+                best-selling models such as the Moon and Disc, along with newer designs like the
+                Hive and Nest.
+              </p>
+              <div class="container">
+                <div class="row">
+                  <p class="p-3 col-lg-10">
+                    For use in a dry location. Clean with a dry duster or compressed air. Shades
+                    are non-toxic, handmade, and manufactured using responsible practices.
+                  </p>
+                  <div class="p-3 col-md-6 d-lg-none">
+                    <p class="small">Size (NA): Ø 13, H 8 (in)</p>
+                    <p class="small">Size (EU): Ø 32, H 19 (cm)</p>
+                    <p class="small">Cord (NA): Black, 6.5ft (16ft available)</p>
+                    <p class="small">Cord (EU): Black fabric, 2m (5m available)</p>
+                    <p class="small">Canopy (NA): Black powder coated, Ø 5, H 1 (in)</p>
+                    <p class="small">Canopy (EU): Black powder coated, Ø 10, H 2.5 (cm)</p>
+                  </div>
+
+                </div>
+              </div>
+              <h3 class="p-3 text-right">€290.00</h3>
+              <div class="text-right">
+                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Add to Cart</button>
+                <a type="button" href="Cart.html" class="btn btn-color px-5 mx-3">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="container-fluid  pl-5 mx-0">
+    <div class="row ">
+      <div class="col-sm-5 col-lg-2 m-3">
+        <h4 class="py-3 orange literata">Contact us</h4>
+        <h5 class="brown-low light">+44345678903</h5>
+        <h5 class="brown-low light">Lightinn@gmail.com</h5>
+        <h5 class="brown-low"><a href="#" class="brown-low">Find a Store</a></h5>
+      </div>
+      <div class="col-sm-5 col-lg-3 m-3 ">
+        <h4 class="py-3 orange literata">Costomer service</h4>
+        <h5><a class="brown-low" href="#">Contact us</a></h5>
+        <h5><a class="brown-low" href="#">Shipping</a></h5>
+        <h5><a class="brown-low" href="#">Returns</a></h5>
+        <h5><a class="brown-low" href="#">Ordering & Payment</a></h5>
+        <h5><a class="brown-low " href="#">FAQ</a></h5>
+      </div>
+      <div class="col-sm-5 col-lg-2 m-3">
+        <h4 class="py-3 orange literata">Information</h4>
+        <h5><a class="brown-low" href="#">About Light Inn</a></h5>
+        <h5><a class="brown-low " href="#">Privacy Policy</a></h5>
+        <h5><a class="brown-low " href="#">Terms & Conditions</a></h5>
+      </div>
+      <div class="col-sm-5 col-lg-3 m-3 ">
+        <h4 class="py-3 orange literata">Subscribe <span class="white">Light</span> inn via Email</h4>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+        <button type="button" class="btn btn-color my-2 col-6 ">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
